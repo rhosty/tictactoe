@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+}
+
+img{
+  height: 50px;
+  width: 50px;
+}
+
+:root{
+  --player-n: #fff;
+  --player1turn: #5e936c;
+  --player2turn: #fff;
+  
+}
+
+.grid-container {
+  
+  display:grid;
+  grid-template-columns:  150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  overflow:hidden;
+  position: absolute;
+  left: calc(50% - 225px);
+  top: calc(50% - 225px);
+  
+}
+.grid-container div{
+  outline:2px solid #000;
+}
+.grid-container div:last-child {
+  grid-area:3/3;
+}
+
+
+
+.cell{
+  
+  
+}
+
+.gameinfo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.player1{
+    width: 100px;
+    height: 50px;
+    border: solid black;
+    background: var(--player1turn);
+
+}
+
+.player2{
+  width: 100px;
+  height: 50px;
+  border: solid black;
+  background: var(--player2turn);
+  
+
+}
+
