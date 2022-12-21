@@ -48,9 +48,7 @@ const inputCell = document.getElementsByClassName('cell');
       })
   };
 
-if (clickCounter != 0){
-   console.log("yeah")
-}
+
 
 
 
