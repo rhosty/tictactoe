@@ -7,16 +7,16 @@ const playerOneHasWon = [1, 1, 1];
 const playerTowHasWon = [-1, -1, -1];
 
 
-let firstCol = [];
-let secondCol = [];
-let thirdCol = [];
-let firstRow = [];
-let secondRow = [];
-let thirdRow = [];
-let firstDiagonal = [];
-let secondDiagonal = [];
+const firstCol = [];
+const secondCol = [];
+const thirdCol = [];
+const firstRow = [];
+const secondRow = [];
+const thirdRow = [];
+const firstDiagonal = [];
+const secondDiagonal = [];
 
-//checks who is thw inner of the game in the first column
+//checks who is the winner of the game in the first column
 
 let  checkForWin = document.getElementById('won');
       checkForWin.addEventListener('click', function(){
